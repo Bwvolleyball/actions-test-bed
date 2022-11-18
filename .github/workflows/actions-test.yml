@@ -11,5 +11,5 @@ jobs:
           approvers: Bwvolleyball
           minimum-approvals: 1
           issue-title: "Test Manual Deployment"
-          additional-approved-words: '#kaakaww,shipit,:shipit:,:white_check_mark:'
+          additional-approved-words: '#kaakaww,shipit,:shipit:,✅'
           additional-denied-words: ':x:'
