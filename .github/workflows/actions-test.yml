@@ -1,3 +1,4 @@
+name: Test Manual Approval
 on: workflow_dispatch
 
 jobs:
@@ -7,7 +8,7 @@ jobs:
       - uses: bwvolleyball/manual-approval@main
         with:
           secret: ${{ github.TOKEN }}
-          approvers: @Bwvolleyball
+          approvers: Bwvolleyball
           minimum-approvals: 1
           issue-title: "Test Manual Deployment"
           additional-approved-words: '#kaakaww,shipit,:shipit:,:white_check_mark:'
